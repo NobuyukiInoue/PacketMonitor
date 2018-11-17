@@ -1,7 +1,7 @@
 param( $csFile )
 
 if (-Not($csFile)) {
-    Write-Host "Usage : ./main.ps1 CSharp_Source"
+    Write-Host "Usage : ./main.ps1 ./Program.cs"
     exit
 }
 
